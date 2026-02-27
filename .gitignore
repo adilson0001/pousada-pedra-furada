@@ -1,7 +1,7 @@
 
 # Dependências
 node_modules/
-# Builds e artefatos de produção
+# Builds e artefatos de produção.
 .next/
 out/
 dist/
