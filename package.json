@@ -4,14 +4,17 @@
   "description": "",
   "main": "next.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adilson0001/pousada-pedra-furada.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "adilson0001",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
