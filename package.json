@@ -1,2 +1,21 @@
-
-
+{
+  "name": "pousada-pedra-furada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilson0001/pousada-pedra-furada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adilson0001/pousada-pedra-furada/issues"
+  },
+  "homepage": "https://github.com/adilson0001/pousada-pedra-furada#readme"
+}
