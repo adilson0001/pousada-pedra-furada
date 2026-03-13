@@ -1,0 +1,21 @@
+{
+  "name": "pousada-pedra-furada",
+  "version": "1.0.0",
+  "description": "Aplicação web SPA desenvolvida em **Next.js**, com foco em **CI/CD**, **TDD** e **boas práticas de versionamento**. ## 띙띚띞띟띛띜띝 Tecnologias - Next.js 15+ - Node.js 20+ - Prisma ORM - MySQL (ou PostgreSQL) - Jest + React Testing Library - Docker (ambiente padronizado) ## �� Estrutura do Projeto - `src/pages/api` → rotas da API RESTful - `src/components` → componentes reutilizáveis - `src/tests` → testes automatizados - `prisma/` → schema e migrations do banco de dados ## 꽎 Instalação ```bash git clone https://github.com/seuusuario/pousada-pedra-furada.git cd pousada-pedra-furada npm install npm run dev",
+  "keywords": [],
+  "homepage": "https://github.com/adilson0001/pousada-pedra-furada#readme",
+  "bugs": {
+    "url": "https://github.com/adilson0001/pousada-pedra-furada/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilson0001/pousada-pedra-furada.git"
+  },
+  "license": "MIT",
+  "author": "Adilson",
+  "type": "commonjs",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
