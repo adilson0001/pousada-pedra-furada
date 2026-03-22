@@ -8,12 +8,9 @@ export default function App() {
     return (
         <Layout>
             <Routes>
-                <Route path="/" element={<Navigate to="/login" />} />
-                <Route path="/login" element={<LoginPage />} />
+                <Route path="/" element={<Navigate to="/login" />} />  <Route path="/login" element={<LoginPage />} />
                 <Route path="/tarefas" element={<TarefasPage />} />
-                <Route path="/relatorios" element={<RelatoriosPage />} />
-                <Route path="*" element={<h2>Página não encontrada</h2>} />
-            </Routes>
+                <Route path="/relatorios" element={<RelatoriosPage />} />  <Route path="*" element={<h2>Página não encontrada</h2>} />  </Routes>
         </Layout>
     );
-}
+} 
