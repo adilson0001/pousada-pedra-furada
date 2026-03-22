@@ -1,8 +1,17 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent, within } from "@testing-library/react";
 import TarefasPage from "../pages/TarefasPage";
-test("deve atualizar o status da tarefa ao clicar no botão", () => {
- render(<TarefasPage />);
- const botao = screen.getAllByText("Atualizar")[0];
- fireEvent.click(botao);
- expect(screen.getByText(/Em andamento|Concluída/)).toBeInTheDocument();
+
+test("deve atualizar o status corretamente dentro do item", () => {
+  render(<TarefasPage />);
+  
+  // Pega o primeiro item da lista (li)
+  const itens = screen.getAllByRole("listitem");
+  const primeiroItem = itens[0];
+
+  // Busca o botão dentro desse item específico
+  const botao = within(primeiroItem).getByText("Atualizar");
+  fireEvent.click(botao);
+
+  // Verifica se o status mudou para "Em andamento" apenas dentro desse item
+  expect(within(primeiroItem).getByText("Em andamento")).toBeInTheDocument();
 });
